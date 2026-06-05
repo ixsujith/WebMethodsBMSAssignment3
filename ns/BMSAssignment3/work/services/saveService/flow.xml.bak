@@ -3210,7 +3210,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;0;BackendAssignment.BMSAssignment3.work.docTypes:TaskDoc/taskId;1;0" TO="/tskId;1;0">
+<MAPCOPY FROM="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;0;BMSAssignment3.work.docTypes:TaskDoc/taskId;1;0" TO="/tskId;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -3887,7 +3887,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/value;1;0" TO="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;0;BackendAssignment.BMSAssignment3.work.docTypes:TaskDoc/taskId;1;0">
+<MAPCOPY FROM="/value;1;0" TO="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;0;BMSAssignment3.work.docTypes:TaskDoc/taskId;1;0">
 </MAPCOPY>
 
 <MAPDELETE FIELD="/value;1;0">
@@ -4226,7 +4226,7 @@
 <MAPCOPY FROM="/TskRefDoc;2;1" TO="/toList;2;1">
 </MAPCOPY>
 
-<MAPCOPY FROM="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;0;BackendAssignment.BMSAssignment3.work.docTypes:TaskDoc" TO="/fromItem;2;0">
+<MAPCOPY FROM="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;0;BMSAssignment3.work.docTypes:TaskDoc" TO="/fromItem;2;0">
 </MAPCOPY>
 </MAP>
 
@@ -4595,7 +4595,7 @@
 <MAPCOPY FROM="/TskRefDocUpdate;2;1" TO="/toList;2;1">
 </MAPCOPY>
 
-<MAPCOPY FROM="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;0;BackendAssignment.BMSAssignment3.work.docTypes:TaskDoc" TO="/fromList;2;1">
+<MAPCOPY FROM="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;0;BMSAssignment3.work.docTypes:TaskDoc" TO="/fromList;2;1">
 </MAPCOPY>
 </MAP>
 
@@ -4622,7 +4622,7 @@
   <COMMENT></COMMENT>
 </MAP>
 
-<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.adapters.insert:insertIntoCmp" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.adapters:insertIntoCmp" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->

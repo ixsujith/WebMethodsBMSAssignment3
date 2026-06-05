@@ -229,7 +229,7 @@
 
   <!-- nodes -->
 
-<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.adapters:generateId" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.util:generateId" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -1613,7 +1613,7 @@
 
   <!-- nodes -->
 
-<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.adapters:generateId" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.util:generateId" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -3224,7 +3224,7 @@
 
   <!-- nodes -->
 
-<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.adapters:generateId" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.util:generateId" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -4622,7 +4622,7 @@
   <COMMENT></COMMENT>
 </MAP>
 
-<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.adapters.insert:insertIntoCmp" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.adapters:insertIntoCmp" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->

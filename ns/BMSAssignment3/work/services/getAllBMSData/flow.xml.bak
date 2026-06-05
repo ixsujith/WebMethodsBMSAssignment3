@@ -10,7 +10,7 @@
 
   <!-- nodes -->
 
-<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.adapters.select:getAllCmp" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.adapters:getAllCmp" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -290,7 +290,7 @@
 </MAPCOPY>
 </MAP>
 
-<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.adapters.select:getPrjByCmpId" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.adapters:getPrjByCmpId" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -1246,16 +1246,16 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/getTskByPrjIdOutput;2;0/results;2;1/TASK_ID;1;0" TO="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;1;BackendAssignment.BMSAssignment3.work.docTypes:TaskDoc/taskId;1;0">
+<MAPCOPY FROM="/getTskByPrjIdOutput;2;0/results;2;1/TASK_ID;1;0" TO="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;1;BMSAssignment3.work.docTypes:TaskDoc/taskId;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/getTskByPrjIdOutput;2;0/results;2;1/PROJECT_ID;1;0" TO="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;1;BackendAssignment.BMSAssignment3.work.docTypes:TaskDoc/projectId;1;0">
+<MAPCOPY FROM="/getTskByPrjIdOutput;2;0/results;2;1/PROJECT_ID;1;0" TO="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;1;BMSAssignment3.work.docTypes:TaskDoc/projectId;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/getTskByPrjIdOutput;2;0/results;2;1/TASK_NAME;1;0" TO="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;1;BackendAssignment.BMSAssignment3.work.docTypes:TaskDoc/taskName;1;0">
+<MAPCOPY FROM="/getTskByPrjIdOutput;2;0/results;2;1/TASK_NAME;1;0" TO="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;1;BMSAssignment3.work.docTypes:TaskDoc/taskName;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/getTskByPrjIdOutput;2;0/results;2;1/TASK_STATUS;1;0" TO="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;1;BackendAssignment.BMSAssignment3.work.docTypes:TaskDoc/taskStatus;1;0">
+<MAPCOPY FROM="/getTskByPrjIdOutput;2;0/results;2;1/TASK_STATUS;1;0" TO="/CompanyDoc;4;0;BMSAssignment3.work.docTypes:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.work.docTypes:ProjectDoc/TaskDoc;4;1;BMSAssignment3.work.docTypes:TaskDoc/taskStatus;1;0">
 </MAPCOPY>
 </MAP>
 </INVOKE>

@@ -13,7 +13,7 @@
     <array name="operations" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="urlTemplate">/BMS</value>
-        <value name="serviceName">BMSAssignment3.work.services:getAllBMSData</value>
+        <value name="serviceName">BMSAssignment3.work:getAllBMSData</value>
         <array name="httpMethods" type="value" depth="1">
           <value>GET</value>
         </array>
@@ -21,7 +21,7 @@
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="urlTemplate">/BMS/{cmpId}</value>
-        <value name="serviceName">BMSAssignment3.work.services:getByCmpId</value>
+        <value name="serviceName">BMSAssignment3.work:getByCmpId</value>
         <array name="httpMethods" type="value" depth="1">
           <value>GET</value>
         </array>
@@ -33,7 +33,7 @@
   <value name="resourceName">BMS</value>
   <Boolean name="modifiable">true</Boolean>
   <null name="srcdoctypename"/>
-  <value name="assocdoctypename">BMSAssignment3.work.docTypes:BMS</value>
+  <value name="assocdoctypename">BMSAssignment3.document:BMS</value>
   <Boolean name="isjsonapi">false</Boolean>
   <array name="attributes" type="record" depth="1">
     <record javaclass="com.wm.util.Values">

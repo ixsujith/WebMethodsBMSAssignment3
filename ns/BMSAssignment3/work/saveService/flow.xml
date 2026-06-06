@@ -7540,39 +7540,6 @@
         <value name="is_global">false</value>
         <value name="is_soap_array_encoding_used">false</value>
         <array name="rec_fields" type="record" depth="1">
-          <record javaclass="com.wm.util.Values">
-            <value name="node_type">unknown</value>
-            <value name="node_subtype">unknown</value>
-            <value name="is_public">false</value>
-            <value name="field_name">companyId</value>
-            <value name="field_type">string</value>
-            <value name="field_dim">0</value>
-            <value name="nillable">true</value>
-            <value name="form_qualified">false</value>
-            <value name="is_global">false</value>
-          </record>
-          <record javaclass="com.wm.util.Values">
-            <value name="node_type">unknown</value>
-            <value name="node_subtype">unknown</value>
-            <value name="is_public">false</value>
-            <value name="field_name">companyName</value>
-            <value name="field_type">string</value>
-            <value name="field_dim">0</value>
-            <value name="nillable">true</value>
-            <value name="form_qualified">false</value>
-            <value name="is_global">false</value>
-          </record>
-          <record javaclass="com.wm.util.Values">
-            <value name="node_type">unknown</value>
-            <value name="node_subtype">unknown</value>
-            <value name="is_public">false</value>
-            <value name="field_name">companyLocation</value>
-            <value name="field_type">string</value>
-            <value name="field_dim">0</value>
-            <value name="nillable">true</value>
-            <value name="form_qualified">false</value>
-            <value name="is_global">false</value>
-          </record>
         </array>
         <value name="modifiable">true</value>
       </record>
@@ -7736,13 +7703,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/CmpRefDoc;2;1/companyLocation;1;0" TO="/batchInsertCmpInput;2;0/inputs;2;1/companyLocation;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/CmpRefDoc;2;1/companyName;1;0" TO="/batchInsertCmpInput;2;0/inputs;2;1/companyName;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/CmpRefDoc;2;1/companyId;1;0" TO="/batchInsertCmpInput;2;0/inputs;2;1/companyId;1;0">
+<MAPCOPY FROM="/CmpRefDoc;2;1" TO="/batchInsertCmpInput;2;0/inputs;2;1">
 </MAPCOPY>
 </MAP>
 </INVOKE>

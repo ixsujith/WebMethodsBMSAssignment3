@@ -1166,6 +1166,17 @@
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
           </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">companyId</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
         </array>
         <value name="modifiable">true</value>
       </record>
@@ -1270,6 +1281,9 @@
 </MAPCOPY>
 
 <MAPCOPY FROM="/companyDoc;4;0;BMSAssignment3.document:CompanyDoc/companyName;1;0" TO="/CmpRefDocInputUpdate;2;0/companyName;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/companyDoc;4;0;BMSAssignment3.document:CompanyDoc/companyId;1;0" TO="/CmpRefDocInputUpdate;2;0/companyId;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -1497,6 +1511,17 @@
             <value name="node_subtype">unknown</value>
             <value name="is_public">false</value>
             <value name="field_name">companyLocation</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">companyId</value>
             <value name="field_type">string</value>
             <value name="field_dim">0</value>
             <value name="nillable">true</value>
@@ -3360,6 +3385,28 @@
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
           </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">projectId</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">companyId</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
         </array>
         <value name="modifiable">true</value>
       </record>
@@ -3533,6 +3580,12 @@
 </MAPCOPY>
 
 <MAPCOPY FROM="/companyDoc;4;0;BMSAssignment3.document:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.document:ProjectDoc/projectName;1;0" TO="/PrjRefDocInputUpdate;2;0/projectName;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/companyDoc;4;0;BMSAssignment3.document:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.document:ProjectDoc/projectId;1;0" TO="/PrjRefDocInputUpdate;2;0/projectId;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/companyDoc;4;0;BMSAssignment3.document:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.document:ProjectDoc/companyId;1;0" TO="/PrjRefDocInputUpdate;2;0/companyId;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -3883,6 +3936,28 @@
             <value name="node_subtype">unknown</value>
             <value name="is_public">false</value>
             <value name="field_name">projectStartDate</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">projectId</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">companyId</value>
             <value name="field_type">string</value>
             <value name="field_dim">0</value>
             <value name="nillable">true</value>
@@ -6379,6 +6454,28 @@
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
           </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">taskId</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">projectId</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
         </array>
         <value name="modifiable">true</value>
       </record>
@@ -6621,6 +6718,12 @@
 </MAPCOPY>
 
 <MAPCOPY FROM="/companyDoc;4;0;BMSAssignment3.document:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.document:ProjectDoc/TaskDoc;4;0;BMSAssignment3.document:TaskDoc/taskName;1;0" TO="/TskRefDocInputUpdate;2;0/taskName;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/companyDoc;4;0;BMSAssignment3.document:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.document:ProjectDoc/TaskDoc;4;0;BMSAssignment3.document:TaskDoc/taskId;1;0" TO="/TskRefDocInputUpdate;2;0/taskId;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/companyDoc;4;0;BMSAssignment3.document:CompanyDoc/ProjectDoc;4;0;BMSAssignment3.document:ProjectDoc/TaskDoc;4;0;BMSAssignment3.document:TaskDoc/projectId;1;0" TO="/TskRefDocInputUpdate;2;0/projectId;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -7124,6 +7227,28 @@
             <value name="node_subtype">unknown</value>
             <value name="is_public">false</value>
             <value name="field_name">taskStatus</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">taskId</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">projectId</value>
             <value name="field_type">string</value>
             <value name="field_dim">0</value>
             <value name="nillable">true</value>

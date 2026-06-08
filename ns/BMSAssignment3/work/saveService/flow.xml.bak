@@ -28,7 +28,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Store CMP_ID for future purpose ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -1146,7 +1146,7 @@
 </INVOKE>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Company data extraction ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -1423,7 +1423,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Company data preparation ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -1765,7 +1765,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Message for invalid inputs ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -2196,7 +2196,7 @@
 </INVOKE>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Assigning CMP_ADM_ID for validation ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -2617,23 +2617,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
-</MAP>
-</SEQUENCE>
-
-<SEQUENCE NAME="$default" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
-
-  <!-- nodes -->
-
-<MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
-</MAP>
-</SEQUENCE>
-</BRANCH>
-
-<MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Updated company data extraction ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -3090,7 +3074,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Updated company data preparation ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -3605,6 +3589,18 @@
 </MAPINVOKE>
 </MAP>
 </SEQUENCE>
+
+<SEQUENCE NAME="$default" TIMEOUT="" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT>== Message for invalid inputs ==</COMMENT>
+</MAP>
+</SEQUENCE>
+</BRANCH>
+</SEQUENCE>
 </BRANCH>
 
 <LOOP TIMEOUT="" IN-ARRAY="/companyDoc/ProjectDoc">
@@ -3613,7 +3609,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Assigning PRJ_ID for validation and future reference ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -4099,7 +4095,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Assigning CMP_ADM_ID for validation ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -6317,7 +6313,7 @@
 </INVOKE>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Project data extraction ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -6968,7 +6964,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Project data preparation ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -7681,7 +7677,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Message for invalid input ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -8044,7 +8040,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Message for invalid input ==</COMMENT>
 </MAP>
 </SEQUENCE>
 </BRANCH>
@@ -8056,7 +8052,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Assigning CMP_ADM_ID for validation ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -8711,7 +8707,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Updated project data extraction ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -9420,7 +9416,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Updated project data insertion ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -10191,7 +10187,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Message for invalid input ==</COMMENT>
 </MAP>
 </SEQUENCE>
 </BRANCH>
@@ -10204,7 +10200,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Assigning TSK_ID for validation and future reference ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -10928,7 +10924,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Assigning CMP_ADM_ID for validation ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -13857,7 +13853,7 @@
 </INVOKE>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Task data extraction==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -14746,7 +14742,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Task data preparation ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -15697,7 +15693,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Message for invalid inputs ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -16179,7 +16175,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Message for invalid inputs ==</COMMENT>
 </MAP>
 </SEQUENCE>
 </BRANCH>
@@ -16191,7 +16187,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Assigning CMP_ADM_ID for validation ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -17084,7 +17080,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Updated task data extraction ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -18031,7 +18027,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Updated task data preparation ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -19040,7 +19036,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Message for invalid inputs ==</COMMENT>
 </MAP>
 </SEQUENCE>
 </BRANCH>

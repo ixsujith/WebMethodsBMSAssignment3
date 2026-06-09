@@ -17,6 +17,9 @@
 
 <MAP MODE="INPUT">
 </MAP>
+
+<MAP MODE="OUTPUT">
+</MAP>
 </INVOKE>
 </SEQUENCE>
 

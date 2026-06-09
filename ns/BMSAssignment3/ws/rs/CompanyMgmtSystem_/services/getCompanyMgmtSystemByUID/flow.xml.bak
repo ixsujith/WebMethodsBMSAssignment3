@@ -98,6 +98,9 @@
 <MAPCOPY FROM="/companyId;1;0" TO="/cmpId;1;0">
 </MAPCOPY>
 </MAP>
+
+<MAP MODE="OUTPUT">
+</MAP>
 </INVOKE>
 </SEQUENCE>
 

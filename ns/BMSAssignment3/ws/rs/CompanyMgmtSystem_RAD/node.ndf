@@ -358,14 +358,14 @@
       <record name="parameters" javaclass="com.wm.util.Values">
         <record name="output" javaclass="com.wm.util.Values">
           <value name="name">output</value>
-          <value name="source">BODY</value>
-          <value name="type">REFERENCE</value>
+          <value name="source">FORMDATA</value>
+          <value name="type">STRING</value>
           <null name="description"/>
           <Boolean name="isRequired">true</Boolean>
           <Boolean name="isArray">false</Boolean>
           <null name="defaultValue"/>
-          <value name="refDefinition">BMSAssignment3.ws.rs.CompanyMgmtSystem_.docTypes:CompanyMgmtSystem</value>
-          <value name="definitionName">CompanyMgmtSystem</value>
+          <null name="refDefinition"/>
+          <null name="definitionName"/>
           <Boolean name="includeInRad">true</Boolean>
         </record>
         <record name="errors" javaclass="com.wm.util.Values">
@@ -415,14 +415,14 @@
       <record name="parameters" javaclass="com.wm.util.Values">
         <record name="output" javaclass="com.wm.util.Values">
           <value name="name">output</value>
-          <value name="source">BODY</value>
-          <value name="type">REFERENCE</value>
+          <value name="source">FORMDATA</value>
+          <value name="type">STRING</value>
           <null name="description"/>
           <Boolean name="isRequired">true</Boolean>
           <Boolean name="isArray">false</Boolean>
           <null name="defaultValue"/>
-          <value name="refDefinition">BMSAssignment3.ws.rs.CompanyMgmtSystem_.docTypes:CompanyMgmtSystem</value>
-          <value name="definitionName">CompanyMgmtSystem</value>
+          <null name="refDefinition"/>
+          <null name="definitionName"/>
           <Boolean name="includeInRad">true</Boolean>
         </record>
         <record name="errors" javaclass="com.wm.util.Values">
@@ -447,6 +447,18 @@
           <null name="defaultValue"/>
           <null name="refDefinition"/>
           <null name="definitionName"/>
+          <Boolean name="includeInRad">true</Boolean>
+        </record>
+        <record name="lastError" javaclass="com.wm.util.Values">
+          <value name="name">lastError</value>
+          <value name="source">BODY</value>
+          <value name="type">REFERENCE</value>
+          <null name="description"/>
+          <Boolean name="isRequired">true</Boolean>
+          <Boolean name="isArray">false</Boolean>
+          <null name="defaultValue"/>
+          <value name="refDefinition">pub.event:exceptionInfo</value>
+          <value name="definitionName">exceptionInfo</value>
           <Boolean name="includeInRad">true</Boolean>
         </record>
       </record>
@@ -1163,6 +1175,7 @@
           <value name="nsName">/CompanyMgmtSystem/{companyId}_PATCH</value>
           <array name="requiredDefinitions" type="value" depth="1">
             <value>BMSAssignment3.ws.rs.CompanyMgmtSystem_.docTypes:CompanyMgmtSystem</value>
+            <value>pub.event:exceptionInfo</value>
             <value>pub.rest.jsonapi:errorTemplate</value>
             <value>/CompanyMgmtSystem/{companyId}_PATCH_$response</value>
           </array>

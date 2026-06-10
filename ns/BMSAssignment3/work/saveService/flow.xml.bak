@@ -14274,7 +14274,7 @@
 </LOOP>
 
 <BRANCH TIMEOUT="" SWITCH="/CmpRefDoc">
-  <COMMENT></COMMENT>
+  <COMMENT>== Insertion or updating of company data ==</COMMENT>
 
   <!-- nodes -->
 
@@ -15389,7 +15389,7 @@
 </BRANCH>
 
 <BRANCH TIMEOUT="" SWITCH="/PrjRefDoc">
-  <COMMENT></COMMENT>
+  <COMMENT>== Insertion or updating of project data ==</COMMENT>
 
   <!-- nodes -->
 
@@ -16641,7 +16641,7 @@
 </BRANCH>
 
 <BRANCH TIMEOUT="" SWITCH="/TskRefDoc">
-  <COMMENT></COMMENT>
+  <COMMENT>== Insertion or updating of task data ==</COMMENT>
 
   <!-- nodes -->
 

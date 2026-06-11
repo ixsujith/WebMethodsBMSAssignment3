@@ -392,13 +392,14 @@
           <value name="definitionName">exceptionInfo</value>
           <Boolean name="includeInRad">true</Boolean>
         </record>
-        <record name="message" javaclass="com.wm.util.Values">
-          <value name="name">message</value>
+        <record name="messageList" javaclass="com.wm.util.Values">
+          <value name="name">messageList</value>
           <value name="source">FORMDATA</value>
           <value name="type">STRING</value>
           <null name="description"/>
           <Boolean name="isRequired">true</Boolean>
-          <Boolean name="isArray">false</Boolean>
+          <Boolean name="isArray">true</Boolean>
+          <value name="collectionFormat">csv</value>
           <null name="defaultValue"/>
           <null name="refDefinition"/>
           <null name="definitionName"/>
@@ -437,18 +438,6 @@
           <value name="definitionName">errorTemplate</value>
           <Boolean name="includeInRad">true</Boolean>
         </record>
-        <record name="message" javaclass="com.wm.util.Values">
-          <value name="name">message</value>
-          <value name="source">FORMDATA</value>
-          <value name="type">STRING</value>
-          <null name="description"/>
-          <Boolean name="isRequired">true</Boolean>
-          <Boolean name="isArray">false</Boolean>
-          <null name="defaultValue"/>
-          <null name="refDefinition"/>
-          <null name="definitionName"/>
-          <Boolean name="includeInRad">true</Boolean>
-        </record>
         <record name="lastError" javaclass="com.wm.util.Values">
           <value name="name">lastError</value>
           <value name="source">BODY</value>
@@ -459,6 +448,19 @@
           <null name="defaultValue"/>
           <value name="refDefinition">pub.event:exceptionInfo</value>
           <value name="definitionName">exceptionInfo</value>
+          <Boolean name="includeInRad">true</Boolean>
+        </record>
+        <record name="messageList" javaclass="com.wm.util.Values">
+          <value name="name">messageList</value>
+          <value name="source">FORMDATA</value>
+          <value name="type">STRING</value>
+          <null name="description"/>
+          <Boolean name="isRequired">true</Boolean>
+          <Boolean name="isArray">true</Boolean>
+          <value name="collectionFormat">csv</value>
+          <null name="defaultValue"/>
+          <null name="refDefinition"/>
+          <null name="definitionName"/>
           <Boolean name="includeInRad">true</Boolean>
         </record>
       </record>

@@ -1137,16 +1137,11 @@
 </MAP>
 
 <BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
-  <COMMENT></COMMENT>
+  <COMMENT>== Validates admin Id ==</COMMENT>
 
   <!-- nodes -->
 
-<SEQUENCE NAME="cmpAdmId == refCmpAdmId" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT>== Validates admin check for isolation over data manipulation ==</COMMENT>
-
-  <!-- nodes -->
-
-<MAP TIMEOUT="" MODE="STANDALONE">
+<MAP NAME="cmpAdmId == refCmpAdmId" TIMEOUT="" MODE="STANDALONE">
   <COMMENT>== Updated company data preparation ==</COMMENT>
   <MAPTARGET>
 
@@ -1436,7 +1431,6 @@
 </MAP>
 </MAPINVOKE>
 </MAP>
-</SEQUENCE>
 
 <SEQUENCE NAME="$default" TIMEOUT="" EXIT-ON="FAILURE">
   <COMMENT>== Sequence to give an error message for invalid admin Id access ==</COMMENT>
@@ -4403,7 +4397,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT>== Storing the message in a list ==</COMMENT>
+  <COMMENT>== Appending error message to message list ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -7373,7 +7367,7 @@
 </MAP>
 
 <BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
-  <COMMENT></COMMENT>
+  <COMMENT>== Admin validation ==</COMMENT>
 
   <!-- nodes -->
 
@@ -8057,7 +8051,7 @@
 </INVOKE>
 
 <BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
-  <COMMENT></COMMENT>
+  <COMMENT>== Duplication validation check ==</COMMENT>
 
   <!-- nodes -->
 
@@ -10433,7 +10427,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Appending error message to a list ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -25529,7 +25523,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Task string concat ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -26234,7 +26228,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Task string preparation ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -29581,7 +29575,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Task string concat ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -30364,7 +30358,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Task string preparation ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -33987,7 +33981,7 @@
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Project string concat ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -34770,7 +34764,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Project string preparation ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -39520,6 +39514,7 @@
     <value>TskRefDoc</value>
     <value>TskRefDocUpdate</value>
     <value>messageList</value>
+    <value>output</value>
   </array>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">field</value>

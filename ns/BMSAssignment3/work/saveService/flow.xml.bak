@@ -4397,7 +4397,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT>== Storing the message in a list ==</COMMENT>
+  <COMMENT>== Appending error message to message list ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -7367,7 +7367,7 @@
 </MAP>
 
 <BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
-  <COMMENT></COMMENT>
+  <COMMENT>== Admin validation ==</COMMENT>
 
   <!-- nodes -->
 
@@ -8051,7 +8051,7 @@
 </INVOKE>
 
 <BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
-  <COMMENT></COMMENT>
+  <COMMENT>== Duplication validation check ==</COMMENT>
 
   <!-- nodes -->
 
@@ -10427,7 +10427,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Appending error message to a list ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">

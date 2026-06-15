@@ -39519,7 +39519,7 @@
     <value>PrjRefDocUpdate</value>
     <value>TskRefDoc</value>
     <value>TskRefDocUpdate</value>
-    <value>message</value>
+    <value>messageList</value>
   </array>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">field</value>
@@ -39537,6 +39537,9 @@
 </Values>
 </DATA>
 </MAPSET>
+</MAP>
+
+<MAP MODE="OUTPUT">
 </MAP>
 </INVOKE>
 </SEQUENCE>

@@ -37936,30 +37936,6 @@
 
   <!-- nodes -->
 
-<MAPINVOKE SERVICE="pub.string:padRight" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
-
-  <!-- nodes -->
-
-<MAP MODE="INVOKEINPUT">
-
-  <!-- nodes -->
-
-<MAPCOPY FROM="/prjDelChecklength;1;0" TO="/length;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/prjDelCheck;1;0" TO="/inString;1;0">
-</MAPCOPY>
-</MAP>
-
-<MAP MODE="INVOKEOUTPUT">
-
-  <!-- nodes -->
-
-<MAPCOPY FROM="/value;1;0" TO="/prjDelCheck;1;0">
-</MAPCOPY>
-</MAP>
-</MAPINVOKE>
-
 <MAPINVOKE SERVICE="pub.string:substring" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
 
   <!-- nodes -->

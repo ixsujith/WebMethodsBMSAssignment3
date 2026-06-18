@@ -559,7 +559,7 @@
   <!-- nodes -->
 
 <SEQUENCE NAME="1" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Company exists ==</COMMENT>
 
   <!-- nodes -->
 
@@ -1962,7 +1962,7 @@
 </SEQUENCE>
 
 <SEQUENCE NAME="0" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Company doesn&#39;t exist ==</COMMENT>
 
   <!-- nodes -->
 
@@ -2503,7 +2503,7 @@
 </SEQUENCE>
 
 <SEQUENCE NAME="$default" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT>== Data insertion sequence since company Id is empty ==</COMMENT>
+  <COMMENT>== Data insertion sequence for company data ==</COMMENT>
 
   <!-- nodes -->
 
@@ -5306,7 +5306,7 @@
   <!-- nodes -->
 
 <SEQUENCE NAME="/[^ ]/" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Data update sequence for project data ==</COMMENT>
 
   <!-- nodes -->
 
@@ -5891,7 +5891,7 @@
   <!-- nodes -->
 
 <SEQUENCE NAME="0" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Project doesn&#39;t exists ==</COMMENT>
 
   <!-- nodes -->
 
@@ -6499,7 +6499,7 @@
 </SEQUENCE>
 
 <SEQUENCE NAME="1" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Project exisits ==</COMMENT>
 
   <!-- nodes -->
 
@@ -7357,7 +7357,7 @@
 </SEQUENCE>
 
 <SEQUENCE NAME="$default" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Data insertion sequence for project data ==</COMMENT>
 
   <!-- nodes -->
 
@@ -7794,7 +7794,7 @@
   <!-- nodes -->
 
 <SEQUENCE NAME="cmpAdmId == prjCmpAdmId" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Correctly validated admin Id ==</COMMENT>
 
   <!-- nodes -->
 
@@ -8502,7 +8502,7 @@
   <!-- nodes -->
 
 <SEQUENCE NAME="prjCount == 0" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Duplicate project doesn&#39;t exist ==</COMMENT>
 
   <!-- nodes -->
 
@@ -9883,7 +9883,7 @@
 </SEQUENCE>
 
 <SEQUENCE NAME="$default" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Duplicate project exists ==</COMMENT>
 
   <!-- nodes -->
 
@@ -10149,7 +10149,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">Project wit name %companyDoc/ProjectDoc/projectName% already exists</value>
+  <value name="xml">Project with name %companyDoc/ProjectDoc/projectName% already exists</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
     <value name="node_subtype">unknown</value>
@@ -10685,7 +10685,7 @@
 </SEQUENCE>
 
 <SEQUENCE NAME="$default" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Invalid admin Id ==</COMMENT>
 
   <!-- nodes -->
 
@@ -12253,7 +12253,7 @@
   <!-- nodes -->
 
 <SEQUENCE NAME="/[^ ]/" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Data update sequence for task data ==</COMMENT>
 
   <!-- nodes -->
 
@@ -12988,7 +12988,7 @@
   <!-- nodes -->
 
 <SEQUENCE NAME="0" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Task doesn&#39;t exists to perform update operation ==</COMMENT>
 
   <!-- nodes -->
 
@@ -13821,7 +13821,7 @@
 </SEQUENCE>
 
 <SEQUENCE NAME="1" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Task exists and update operation gets implemented ==</COMMENT>
 
   <!-- nodes -->
 
@@ -14979,7 +14979,7 @@
 </SEQUENCE>
 
 <SEQUENCE NAME="$default" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Data insertion sequence for task data ==</COMMENT>
 
   <!-- nodes -->
 
@@ -15566,7 +15566,7 @@
   <!-- nodes -->
 
 <SEQUENCE NAME="cmpAdmId == tskCmpAdmId" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Correctly validated admin Id ==</COMMENT>
 
   <!-- nodes -->
 
@@ -18461,7 +18461,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Appending message to a list ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -19129,7 +19129,7 @@
 </SEQUENCE>
 
 <SEQUENCE NAME="$default" TIMEOUT="" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Invalid admin Id ==</COMMENT>
 
   <!-- nodes -->
 
@@ -19488,7 +19488,7 @@
 </MAP>
 
 <MAP TIMEOUT="" MODE="STANDALONE">
-  <COMMENT></COMMENT>
+  <COMMENT>== Appending message to a list ==</COMMENT>
   <MAPTARGET>
 
 <Values version="2.0">
@@ -30816,20 +30816,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteAllProjectOutput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
         <value name="field_name">lastError</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
@@ -31329,20 +31315,6 @@
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
         <value name="field_name">deleteProjectOutput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">deleteAllProjectOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -31886,20 +31858,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteAllProjectOutput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
         <value name="field_name">lastError</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
@@ -32396,20 +32354,6 @@
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
         <value name="field_name">deleteProjectOutput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">deleteAllProjectOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -32939,20 +32883,6 @@
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
         <value name="field_name">deleteProjectOutput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">deleteAllProjectOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -33541,20 +33471,6 @@
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
         <value name="field_name">deleteProjectOutput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">deleteAllProjectOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -38063,12 +37979,12 @@
 </INVOKE>
 </SEQUENCE>
 
-<SEQUENCE NAME="$default" TIMEOUT="" EXIT-ON="FAILURE">
+<SEQUENCE NAME="$default" TIMEOUT="" EXIT-ON="FAILURE" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
 
-<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.util:deleteAllProject" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="BMSAssignment3.util:deleteAllProject" VALIDATE-IN="$none" VALIDATE-OUT="$none" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 </SEQUENCE>
@@ -38535,20 +38451,6 @@
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
         <value name="field_name">deleteProjectOutput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">deleteAllProjectOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -39057,20 +38959,6 @@
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
         <value name="field_name">deleteProjectOutput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">deleteAllProjectOutput</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
